@@ -18,6 +18,19 @@ Served at <https://yonafunu.github.io/cosmo-catalogue/gaia-dr3-g15/>.
   - `g`: G magnitude in millimagnitudes (unsigned 16-bit);
   - `bp_rp`: BP − RP colour in millimagnitudes (signed 16-bit), -32768 when Gaia has no colour.
 
+## Sky index (`blind-g15/`)
+
+An index of star quads built from the catalogue, used by COSMO to recognise a field anywhere in the sky from its
+stars alone, with no coordinates (the principle of astrometry.net). 7.4 million quads in six size bands, from
+0.2°–0.4° to 6.4°–12.8°, 55 MB.
+
+- `blind-g15/manifest.json`: version, and for each band its quad size, star and quad counts, size in bytes and
+  SHA-256.
+- `blind-g15/band_*.npz`: in each band, the 3 brightest stars of every sky cell of the band's size (`ra`, `dec` as
+  above, stored cell by cell); the quads as `a` (the first star, as the difference from the previous quad's) and
+  `bcd` (the other three stars, as offsets from `a`). The quad codes (where C and D fall in the frame where A is at
+  (0, 0) and B at (1, 1)) are computed when the index is loaded.
+
 ## Source and licence
 
 This catalogue is derived from Gaia DR3 data.
