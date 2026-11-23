@@ -6,46 +6,46 @@
  "per_cell": 3,
  "bands": {
   "band_0p2": {
-   "bytes": 41067348,
-   "sha256": "e458650ae4a3c070d76e53ba038083e0f3312d4277c6aae174f2520ada390ab8",
+   "bytes": 41123844,
+   "sha256": "defe575186511a609829718d4c77ddd026789b939414c7956dea7780625e5c01",
    "size": 0.2,
-   "stars": 3077491,
-   "quads": 5573144
+   "stars": 3084932,
+   "quads": 5586804
   },
   "band_0p4": {
-   "bytes": 10444533,
-   "sha256": "9b0606bbc7fc373489e6a29846a65b0abe8b1e4ca82066b6bbf1a0b23b48ca88",
+   "bytes": 10452265,
+   "sha256": "b675819396413935d7ca1638e7e60f5fb6a511a1a0bc962eae812f3b0a99c08f",
    "size": 0.4,
-   "stars": 771242,
-   "quads": 1397314
+   "stars": 772782,
+   "quads": 1400122
   },
   "band_0p8": {
-   "bytes": 2685542,
-   "sha256": "176b1dc4393e41f6b8062a7bea68821e1a502cab4de8907767d97817cc0e3ab8",
+   "bytes": 2686102,
+   "sha256": "69422c2a56a0bb13251f0e78db01a2afc053f70b1c62375431f7bc2bd9d98df9",
    "size": 0.8,
-   "stars": 192760,
-   "quads": 349219
+   "stars": 193032,
+   "quads": 349704
   },
   "band_1p6": {
-   "bytes": 690950,
-   "sha256": "a3c73a630b3de44073ba790abad5292724e780b592d451ea198b337879f458f2",
+   "bytes": 691086,
+   "sha256": "16ff7b8489721fc6876d29f95307ef2e0d832ca34647913ff0f1a0d8720c071a",
    "size": 1.6,
-   "stars": 48156,
-   "quads": 87255
+   "stars": 48168,
+   "quads": 87276
   },
   "band_3p2": {
-   "bytes": 177080,
-   "sha256": "da0363e37319481d3fc1af64a63deb5e9379490134930c514c8030a176ca3f55",
+   "bytes": 177100,
+   "sha256": "b32d5de218ce13fff015e6519b620e7f0c98dd033532d70efc624e4140ca8876",
    "size": 3.2,
    "stars": 12009,
-   "quads": 21706
+   "quads": 21703
   },
   "band_6p4": {
-   "bytes": 45523,
-   "sha256": "8423bfb2cbdee996da26d1d695a7135955512e510a88b7655202ce666ad670aa",
+   "bytes": 45503,
+   "sha256": "ca77b59088cffeb457e78d2b98f320499bca2d1ab2ebbc4ab67ff41301167d30",
    "size": 6.4,
    "stars": 2991,
-   "quads": 5408
+   "quads": 5404
   }
  },
  "source": "Gaia DR3, ESA/Gaia/DPAC (https://www.cosmos.esa.int/gaia)"
